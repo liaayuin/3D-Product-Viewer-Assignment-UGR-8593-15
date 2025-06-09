@@ -1,4 +1,4 @@
-export function createTable(scene) {
+function createTable(scene) {
   const tabletopMaterial = new THREE.MeshStandardMaterial({
     color: 0x8b4513,
     roughness: 0.5,

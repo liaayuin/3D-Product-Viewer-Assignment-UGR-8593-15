@@ -1,4 +1,4 @@
-export function animateCamera(camera, time) {
+function animateCamera(camera, time) {
   const radius = 5;
   const speed = 0.0005;
   const angle = time * speed;

@@ -1,4 +1,4 @@
-export function initScene() {
+function initScene() {
   const canvas = document.querySelector("#viewer");
   const scene = new THREE.Scene();
 

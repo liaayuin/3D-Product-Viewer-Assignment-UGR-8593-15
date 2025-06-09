@@ -1,4 +1,4 @@
-export function setupInteraction(scene, camera, renderer, laptop) {
+function setupInteraction(scene, camera, renderer, laptop) {
   const raycaster = new THREE.Raycaster();
   const mouse = new THREE.Vector2();
   const panel = document.getElementById("partName");
